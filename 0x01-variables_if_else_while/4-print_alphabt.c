@@ -2,17 +2,16 @@
 
 /**
  * main - Entry point
- * author: sammy
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char sammy;
+	char dare;
 
-	for (sammy = 'a'; sammy <= 'z'; sammy++)
+	for (dare = 'a'; dare <= 'z'; dare++)
 	{
-		if (sammy != 'q' && sammy != 'e')
-			putchar(sammy);
+		if (dare != 'q' && dare != 'e')
+			putchar(dare);
 	}
 	putchar('\n');
 	return (0);
