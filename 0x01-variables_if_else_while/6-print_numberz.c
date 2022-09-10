@@ -1,18 +1,30 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Return: Always 0 (Success/correct)
+ * main -Entry point
+ * Return: 0
  */
 
 int main(void)
-{
-	int i;
 
-	for (i = 0; i < 10; i++)
+{
+
+	int n = '0';
+
+
+
+	while (n <= '9')
+
 	{
-		putchar(i);
-		putchar('\n');
+
+		putchar(n);
+
+		n++;
+
 	}
+
+	putchar('\n');
+
 	return (0);
+
 }
