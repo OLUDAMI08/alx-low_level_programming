@@ -1,12 +1,13 @@
 #include <stdio.h>
+
 /**
- * main - print the name of the program
+ * main - this is a function to print its name
  * @argc: count
- * @argv: vector
- * Return: 0 always
+ * @argv: an array 
+ * Return: 0 for success
  */
-int main(int argc, char *argv[]_attribute__((unused)))
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	printf("%d", argc - 1);
+	printf("%d\n", argc - 1);
 	return (0);
 }
