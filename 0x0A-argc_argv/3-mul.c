@@ -17,11 +17,8 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	n = atoi(argv[1]);
-	m = atoi(argv[2]);
-	diff = n * m;
+	else
 
-	printf("%i\n", diff);
-
+	printf("%d\n",atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 }
