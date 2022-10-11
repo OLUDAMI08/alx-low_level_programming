@@ -2,13 +2,9 @@
 #define DOG_H
 /**
  * struct dog - user defined data type
- *
  * @name: name of the dog
- *
  * @age: age of the dog
- *
  * @owner: owner of the dog
- * 
 */
 struct dog
 {
