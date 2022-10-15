@@ -6,7 +6,7 @@
 /**
  * sum_them_all - getting the sum of the arguments passed
  * @n: first parameter
- * @...: varied numbers of arguments passed 
+ * @...: varied numbers of arguments passed
  * Return: sum on success
  * otherwise: -1 or error set appropriatly
  */
@@ -16,7 +16,7 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_list nums;
 
-	va_start (nums, n);
+	va_start(nums, n);
 
 	if (n == 0)
 		return (0);
