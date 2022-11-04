@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * read_textfile- function that reads a text file and prints it to the POSIX standard output.
@@ -14,14 +14,14 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	fd = open("filename", O_RDONLY);
 	if (!filename)
 		return (0);
-	beffer = malloc(sizeof(char) * letters);
+	buffer = malloc(sizeof(char) * letters);
 	if (!buffer)
 		return (0);
 	n = read(fd, buffer, letters);
 	if (filename == NULL)
 		return (0);
 	k = write(1, buffer, n);
-	if (write == -1)
+	if (k == -1)
 		return (0);
 	free(buffer);
 	close(fd);
