@@ -22,11 +22,11 @@
 
     if (current == NULL)
     {
-        return NULL;
+        return (NULL);
     }
     else
     {
-        return current;
+        return (current);
     }
 }
 
